@@ -2,20 +2,56 @@
     box-sizing: border-box;
 }
 
-body{
-    margin: 0;
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: grey;
-}
-
-.carosuel{
-    max-width: 1200px;
-    margin: 40px auto;
-    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+    background-color: orange;
     position: relative;
 }
 
-header{
-    background-image: url("img/trump.jpg") no-repeat center;
+figure {
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    background: white;
+    max-width: fit-content;
+    margin: 40px auto;
+    position: absolute;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+figcaption span {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 0.3rem 0.5rem;
+
+}
+
+img {
+    width: 100%;
+}
+
+.left-link, .right-link {
+    position: fixed;
+    top: 50vh;
+    font-size: 5em;
+    border: 3px solid black;
+}
+.left-link a, .right-link a{
+    text-decoration: none;
+    padding: 20px;
+}
+
+.left-link {
+    left:0;
+}
+
+.right-link {
+    right:0
 }
