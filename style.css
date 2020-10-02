@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: grey;
+}
+
+.carosuel{
+    max-width: 1200px;
+    margin: 40px auto;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    position: relative;
+}
