@@ -15,3 +15,7 @@ body{
     border-radius: 10px;
     position: relative;
 }
+
+header{
+    background-image: url("img/trump.jpg") no-repeat center;
+}
